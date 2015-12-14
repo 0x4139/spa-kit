@@ -3,14 +3,14 @@ var path = require("path");
 module.exports = {
     devtool: 'eval',
     devServer: {
-        path: path.resolve(__dirname, "app/dist/"),
+        path: path.resolve(__dirname, "app/src"),
         noInfo: false
     },
     entry: {
         app: [path.resolve(__dirname, 'app/src/app.js')]
     },
     output: {
-        path: path.resolve(__dirname, "app/dist/"),
+        path: path.resolve(__dirname, "app/src/"),
         filename: 'app.min.js'
     },
     module: {
