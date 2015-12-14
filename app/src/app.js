@@ -1,1 +1,1 @@
-console.log('test 1235');
+require('./sass/app.scss');
