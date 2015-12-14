@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --hot --inline --config development.config.js --colors --watch -d"
+    "dev":  "webpack-dev-server --config development.config.js --hot --colors  --display-error-details --content-base  ./app/dist"
   },
   "repository": {
     "type": "git",
