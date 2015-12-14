@@ -1,0 +1,40 @@
+{
+  "name": "spa-kit",
+  "version": "1.0.0",
+  "description": "spa-kit is a webpack formula that helps you build single page apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --hot --inline --config dev.js --colors --watch -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0x4139/spa-kit.git"
+  },
+  "keywords": [
+    "single",
+    "page",
+    "app",
+    "kit",
+    "react",
+    "webpack",
+    "sass"
+  ],
+  "author": "0x4139@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/0x4139/spa-kit/issues"
+  },
+  "homepage": "https://github.com/0x4139/spa-kit#readme",
+  "devDependencies": {
+    "css-loader": "^0.23.0",
+    "jsx-loader": "^0.13.2",
+    "node-sass": "^3.4.2",
+    "sass-loader": "^3.1.2",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  },
+  "dependencies": {
+    "react": "^0.14.3"
+  }
+}
